@@ -40,7 +40,7 @@ Sidebar
   height: 100%;
   top: 0;
   overflow: hidden;
-  background-color: #f0f8ff;
+  background-color: #19222a;
   -webkit-transform: translateZ(0);
   visibility: visible;
   -webkit-backface-visibility: hidden;
@@ -57,7 +57,7 @@ Sidebar Nav
 ----------------*/
 .sidebar-nav {
   position: fixed;
-  background-color: #19222a;
+  background-color: #f0f8ff;
   height: 100%;
   font-weight: 400;
   font-size: 1.2em;
@@ -92,14 +92,14 @@ Sidebar Nav
   ----------------*/
 }
 .sidebar-nav ul li a {
-  color: rgba(255, 255, 255, 0.9);
+  color: #19222a;
   font-size: 0.75em;
   padding: 1.05em 1em;
   position: relative;
   display: block;
 }
 .sidebar-nav ul li a:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #CACFD2;
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   transition: all 0.6s ease;
@@ -116,14 +116,14 @@ Sidebar Nav
   font-family: ionicons;
   font-size: 0.5em;
   width: 10px;
-  color: #fff;
+  color: #19222a;
   position: absolute;
   right: 0.75em;
   top: 45%;
 }
 .sidebar-nav .nav-flyout {
   position: absolute;
-  background-color: #080D11;
+  background-color: #f0f8ff;
   z-index: 9;
   left: 2.5em;
   top: 0;
@@ -138,7 +138,7 @@ Sidebar Nav
   transition: all 0.5s ease;
 }
 .sidebar-nav .nav-flyout a:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #CACFD2;
 }
 .sidebar-nav ul > li:hover .nav-flyout {
   -webkit-transform: translateX(0);
